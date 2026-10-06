@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Space - Contact</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="logo-icon">📚</span>
+            <h1>Study Space</h1>
+        </div>
+
+        <nav>
+            <a href="index.html">🏠 Home</a>
+            <a href="about.html">📖 About</a>
+            <a href="contact.html">✉️ Contact Us</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-icon">✉️</div>
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Have a question or want to tell us about your study goals?
+                Fill out the form below. 🌸
+            </p>
+
+        </section>
+
+
+        <form action="#" method="post">
+
+            <fieldset>
+
+                <legend>👤 Personal Information</legend>
+
+                <div class="form-group">
+
+                    <label for="name">Name:</label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="email">Email:</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="age">Age:</label>
+
+                    <input
+                        type="number"
+                        id="age"
+                        name="age"
+                    >
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="date">Preferred Study Date:</label>
+
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                    >
+
+                </div>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>📚 Study Preferences</legend>
+
+
+                <p>What is your favorite study method?</p>
+
+                <div class="options">
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="method"
+                            value="reading"
+                        >
+                        📖 Reading
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="method"
+                            value="videos"
+                        >
+                        🎥 Videos
+                    </label>
+
+                    <label>
+                        <input
+                            type="radio"
+                            name="method"
+                            value="practice"
+                        >
+                        ✏️ Practice
+                    </label>
+
+                </div>
+
+
+                <p>What subjects do you study?</p>
+
+                <div class="options">
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="subject"
+                            value="math"
+                        >
+                        📐 Mathematics
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="subject"
+                            value="programming"
+                        >
+                        💻 Programming
+                    </label>
+
+                    <label>
+                        <input
+                            type="checkbox"
+                            name="subject"
+                            value="database"
+                        >
+                        🗄️ Database
+                    </label>
+
+                </div>
+
+
+                <div class="form-group">
+
+                    <label for="level">
+                        🎓 Choose your study level:
+                    </label>
+
+                    <select id="level" name="level">
+
+                        <option value="beginner">
+                            Beginner
+                        </option>
+
+                        <option value="intermediate">
+                            Intermediate
+                        </option>
+
+                        <option value="advanced">
+                            Advanced
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+
+            <fieldset>
+
+                <legend>💭 Your Study Goals</legend>
+
+                <label for="message">
+                    Tell us about your study goals:
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                ></textarea>
+
+            </fieldset>
+
+
+            <button type="submit">✨ Submit</button>
+
+        </form>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Study Space</p>
+        <p>Made with care by <strong>Nada Ibrahim</strong> 💗</p>
+    </footer>
+
+</body>
+
+</html>
