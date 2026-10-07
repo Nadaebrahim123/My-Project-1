@@ -1,0 +1,46 @@
+body {
+    background-color: #b9e8ff;
+    color: #ff1493;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #ff1493;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: #ff1493;
+    text-decoration: none;
+    margin: 10px;
+}
+
+h2 {
+    color: #ff1493;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #ff1493;
+    padding: 10px;
+}
+
+input, select, textarea {
+    border: 2px solid #ff1493;
+    padding: 5px;
+}
+
+button {
+    background-color: #ff1493;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+}

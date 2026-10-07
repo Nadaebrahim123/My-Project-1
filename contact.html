@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Day - Contact Us</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Plan Your Day</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Contact Us</h2>
+
+        <p>
+            Tell us about your study plan and daily schedule.
+        </p>
+
+        <form action="#" method="post">
+
+            <!-- Text -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <br><br>
+
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <br><br>
+
+            <!-- Number -->
+            <label for="hours">Study Hours:</label>
+            <input type="number" id="hours" name="hours" min="1" max="24">
+
+            <br><br>
+
+            <!-- Date -->
+            <label for="date">Study Date:</label>
+            <input type="date" id="date" name="date">
+
+            <br><br>
+
+            <!-- Radio Buttons -->
+            <p>What is your study level?</p>
+
+            <input type="radio" id="beginner" name="level" value="beginner">
+            <label for="beginner">Beginner</label>
+
+            <input type="radio" id="intermediate" name="level" value="intermediate">
+            <label for="intermediate">Intermediate</label>
+
+            <input type="radio" id="advanced" name="level" value="advanced">
+            <label for="advanced">Advanced</label>
+
+            <br><br>
+
+            <!-- Checkboxes -->
+            <p>Which subjects do you study?</p>
+
+            <input type="checkbox" id="math" name="subject" value="math">
+            <label for="math">Math</label>
+
+            <input type="checkbox" id="physics" name="subject" value="physics">
+            <label for="physics">Physics</label>
+
+            <input type="checkbox" id="computer" name="subject" value="computer">
+            <label for="computer">Computer Science</label>
+
+            <br><br>
+
+            <!-- Select -->
+            <label for="time">Preferred Study Time:</label>
+
+            <select id="time" name="time">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+                <option value="night">Night</option>
+            </select>
+
+            <br><br>
+
+            <!-- Textarea -->
+            <label for="message">Your Goals or Notes:</label>
+
+            <br>
+
+            <textarea id="message" name="message" rows="6" cols="40"></textarea>
+
+            <br><br>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Plan Your Day</p>
+    </footer>
+
+</body>
+
+</html>
